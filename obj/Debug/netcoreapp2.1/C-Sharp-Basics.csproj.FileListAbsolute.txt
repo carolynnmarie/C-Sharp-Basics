@@ -1,0 +1,11 @@
+/Users/carolynn/dev/C-Sharp-Basics/bin/Debug/netcoreapp2.1/C-Sharp-Basics.deps.json
+/Users/carolynn/dev/C-Sharp-Basics/bin/Debug/netcoreapp2.1/C-Sharp-Basics.runtimeconfig.json
+/Users/carolynn/dev/C-Sharp-Basics/bin/Debug/netcoreapp2.1/C-Sharp-Basics.runtimeconfig.dev.json
+/Users/carolynn/dev/C-Sharp-Basics/bin/Debug/netcoreapp2.1/C-Sharp-Basics.dll
+/Users/carolynn/dev/C-Sharp-Basics/bin/Debug/netcoreapp2.1/C-Sharp-Basics.pdb
+/Users/carolynn/dev/C-Sharp-Basics/obj/Debug/netcoreapp2.1/C-Sharp-Basics.csprojAssemblyReference.cache
+/Users/carolynn/dev/C-Sharp-Basics/obj/Debug/netcoreapp2.1/C-Sharp-Basics.csproj.CoreCompileInputs.cache
+/Users/carolynn/dev/C-Sharp-Basics/obj/Debug/netcoreapp2.1/C-Sharp-Basics.AssemblyInfoInputs.cache
+/Users/carolynn/dev/C-Sharp-Basics/obj/Debug/netcoreapp2.1/C-Sharp-Basics.AssemblyInfo.cs
+/Users/carolynn/dev/C-Sharp-Basics/obj/Debug/netcoreapp2.1/C-Sharp-Basics.dll
+/Users/carolynn/dev/C-Sharp-Basics/obj/Debug/netcoreapp2.1/C-Sharp-Basics.pdb
