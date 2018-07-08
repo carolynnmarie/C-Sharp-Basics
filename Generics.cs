@@ -25,6 +25,5 @@ namespace C_Sharp_Basics{
             return countDuplicates(list.ToArray(), value);
         }
 
-
     }
 }
