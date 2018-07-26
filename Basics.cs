@@ -24,27 +24,18 @@ namespace C_Sharp_Basics{
         public string helloName(){
             return "Hello " + this.fullName;
         }
+        //string.Join("deliniator", string[] array) will take a string array and turn it into a string w/
+        //the deliniator in between the string objects of the array
         public string printArray(string[] stringArray){
             return string.Join(" ", stringArray);
         }
 
-        public int countDuplicates(int[] array, int value){
-            int x = 0;
-            foreach(int item in array){
-                if(item == value) x++;
-            }
-            return x;
-        }
+    }
 
-        public string removeValue(int[] array, int item){
-            List<int> list = new List<int>();
-            for(int i = 0; i<array.Length; i++){
-                if(array[i] != item) list.Add(array[i]);
-            }
-            return string.Join(",", list);
-        }
-
-        
+    public class Basics2{
+        public string FirstName{get;set;}
+        public Basics2(string firstName) => FirstName = firstName;
+        public Basics2() => FirstName = "Carolynn";
 
     }
 }
