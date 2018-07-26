@@ -18,5 +18,13 @@ namespace C_Sharp_Basics{
             }
             return builder.ToString();
         }
+
+        public string printPhoneNumber(double number){
+            return number.ToString("(###)###-####");
+        }
+
+        public string printMoney(decimal number){
+            return number.ToString("C2");
+        }
     }
 }

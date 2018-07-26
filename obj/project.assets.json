@@ -687,11 +687,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/carolynn/dev/C-Sharp-Basics/C-Sharp-Basics.csproj",
+      "projectUniqueName": "/Users/carolynn/dev/C-Sharp/C-Sharp-Basics/C-Sharp-Basics.csproj",
       "projectName": "C-Sharp-Basics",
-      "projectPath": "/Users/carolynn/dev/C-Sharp-Basics/C-Sharp-Basics.csproj",
+      "projectPath": "/Users/carolynn/dev/C-Sharp/C-Sharp-Basics/C-Sharp-Basics.csproj",
       "packagesPath": "/Users/carolynn/.nuget/packages/",
-      "outputPath": "/Users/carolynn/dev/C-Sharp-Basics/obj/",
+      "outputPath": "/Users/carolynn/dev/C-Sharp/C-Sharp-Basics/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

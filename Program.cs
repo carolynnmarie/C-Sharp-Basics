@@ -8,15 +8,9 @@ namespace C_Sharp_Basics
     {
         static void Main(string[] args)
         {
-            // Console.WriteLine(DataTypes.dataTypeDecimal());
-            // Console.WriteLine(DataTypes.dataTypeDouble());
-            // Console.WriteLine(DataTypes.dataTypeFloat());
-            // Console.WriteLine(DataTypes.dataTypeInt());
 
-            Console.WriteLine(StringFormatting.getMultiplicationTable(4));
-            
+            StringFormatting format = new StringFormatting();
 
-            
     
         }
     }
