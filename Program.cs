@@ -10,6 +10,7 @@ namespace C_Sharp_Basics
         {
 
             StringFormatting format = new StringFormatting();
+            Console.WriteLine(format.printInterpolatedVariables("id","peacock"));
 
     
         }

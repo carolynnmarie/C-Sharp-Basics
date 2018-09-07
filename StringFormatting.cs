@@ -26,5 +26,9 @@ namespace C_Sharp_Basics{
         public string printMoney(decimal number){
             return number.ToString("C2");
         }
+
+        public string printInterpolatedVariables(string v1, string v2){
+            return String.Format("variable 1: {0}, variable 2: {1}",v1, v2);
+        }
     }
 }
