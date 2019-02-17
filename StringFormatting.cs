@@ -28,7 +28,12 @@ namespace C_Sharp_Basics{
         }
 
         public string printInterpolatedVariables(string v1, string v2){
-            return String.Format("variable 1: {0}, variable 2: {1}",v1, v2);
+            return $"variable one is {v1} and variable 2 is {v2}.";
         }
+
+        public string printWithStringFormat(int x, int y){
+            return String.Format("The first integer is {0} and the second integer is {1}",x,y);
+        }
+
     }
 }

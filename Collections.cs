@@ -21,7 +21,7 @@ namespace C_Sharp_Basics{
             this.hashSet = new HashSet<int>();
         }
 
-        public List<int> getValues(){
+        public List<int> getDictionaryValues(){
             List<int> list2 = new List<int>(dictionary.Values);
             return list2;
         }
@@ -30,10 +30,9 @@ namespace C_Sharp_Basics{
             return string.Join(", ", list);
         }
         
-        public string getKeys(){
+        public string getDictionaryKeys(){
             Dictionary<String,int>.KeyCollection keys = dictionary.Keys;
             return string.Join(",", keys);
-        
         }
 
     }

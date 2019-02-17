@@ -6,9 +6,11 @@ namespace C_Sharp_Basics{
     public class Generics<T>{
 
         private T[] array {get; set;}
+        private T[] secondArray {get;set;}
 
         public Generics(T[] array){
             this.array = array;
+            this.secondArray = new T[]{};
         }
 
         public int countDuplicates(T[] array, T value){
@@ -24,6 +26,5 @@ namespace C_Sharp_Basics{
             list.AddRange(arrayToMerge);
             return countDuplicates(list.ToArray(), value);
         }
-
     }
 }

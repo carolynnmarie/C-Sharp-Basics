@@ -21,9 +21,7 @@ namespace C_Sharp_Basics{
         public static string getOddNumbers(int start, int stop){
             String x = " ";
             if(start %2 == 0) start++;
-            for(int i = start; i<stop; i+=2){
-                x += i;
-            }
+            for(int i = start; i<stop; i+=2) x += i;
             return x;
         }
 
