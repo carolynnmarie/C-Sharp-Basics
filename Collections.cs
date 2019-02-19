@@ -35,5 +35,10 @@ namespace C_Sharp_Basics{
             return string.Join(",", keys);
         }
 
+        public List<string> sortList(){
+            var myList = new List<string>{"Carolynn","Luis","Elizabeth","Andrea"};
+            myList.Sort();
+            return myList;
+        }
     }
 }

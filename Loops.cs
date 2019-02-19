@@ -42,7 +42,13 @@ namespace C_Sharp_Basics{
             return string.Join(",", list);
         }
 
-        
-
+        //you can use the keyword var in a foreach loop instead of specifying type, at least for non-custom objects
+        public string varForEachLoop(List<string> array){
+            StringBuilder builder = new StringBuilder();
+            foreach(var item in array){
+                builder.Append(item).Append(" ");
+            }
+            return builder.ToString();
+        }
     }
 }

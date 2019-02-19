@@ -30,6 +30,34 @@ namespace C_Sharp_Basics{
             return string.Join(" ", stringArray);
         }
 
+        public void changeName(){
+            firstName = "Luis";
+            lastName = "Romero";
+        }
+
+        public string singleCommandIfElse(int x, int y){
+            string answer = "";
+            if(x>y)
+                answer = "variable x is greater than variable y";
+            else
+                answer = "variable x is not greater than y";
+            return answer;
+        }
+
+        public string multiCommandIfElse(int x, int y){
+            string answer = "";
+            int difference = 0;
+            if(x>y){
+                difference = x-y;
+                answer = $"x is greater than y by {difference}";
+            }
+            else {
+                difference = y-x;
+                answer = $"y is greater than x by {difference}";
+            }
+            return answer;
+        }
+
     }
 
     public class Basics2{

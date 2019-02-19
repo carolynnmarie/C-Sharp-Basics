@@ -15,7 +15,7 @@ namespace C_Sharp_Basics{
         public static decimal dataTypeDecimal(){
             decimal a = 7;
             decimal b = 4;
-            decimal c = 3;
+            decimal c = 3.5M;
             decimal d = (a+b)/c;
             return d;
         }
